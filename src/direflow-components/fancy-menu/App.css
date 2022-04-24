@@ -1,0 +1,36 @@
+.app {
+  width: 100vw;
+  height: 575px;
+  padding: 30px 60px;
+  box-sizing: border-box;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 4px 14px 4px #375c821c;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-bottom: 5px solid #cad5e6;
+  color: rgba(255, 255, 255);
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  gap: 50pt;
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  max-width: 15vw;
+  min-width: 15vw;
+}
+
+ul li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255);
+  transition: all 0.5s;
+}
